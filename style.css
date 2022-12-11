@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Caveat:wght@600&family=Josefin+Sans:ital,wght@1,300&family=Kanit&family=Kaushan+Script&family=Montserrat+Alternates&family=Montserrat:wght@800&family=Orelega+One&family=Permanent+Marker&family=Roboto+Mono:wght@300;400&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 2;
+    padding: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: 100vh;
+
+}
+
+.nav {
+    overflow: hidden;
+
+}
+
+.nav a {
+    float: right;
+    color: black;
+    text-shadow: 1px 1px 2px #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid #333;
+    display: block;
+}
+
+.nav a:hover {
+    /* background-color: #ddd; */
+    color: black;
+
+    font-weight: 200;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 5px 10px #333,
+        7px 7px 15px #333;
+    transition: 1s;
+}
+
+.logo {
+    background-color: white;
+    box-sizing: border-box;
+
+}
+
+.logo .logo1 {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px black,
+        2px 2px 3px black;
+}
+
+.logo .logo1:hover {
+    color: white;
+    text-shadow: 1px 1px 3px black,
+        2px 2px 4px black;
+}
+
+.logo .logo2 {
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 1px;
+
+    padding-left: 83px;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 2px black,
+        2px 2px 3px black;
+}
+
+.logo .logo2:hover {
+    color: white;
+    text-shadow: 1px 1px 3px black,
+        2px 2px 4px black;
+}
+
+.icons {
+    /* position: relative; */
+    float: right;
+    padding: 5px;
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+.icons .fa-brands {
+
+    padding: 7px;
+    padding: 5px;
+    /* justify-content: space-between; */
+}
+
+.icons a .fa-brands {
+
+    text-decoration: none;
+    color: black;
+}
+
+.icons a .fa-facebook:hover {
+    border-radius: 50%;
+    border: 1px solid blue;
+    transition: 0.05s;
+    box-shadow: 2px 2px blue;
+    color: blue;
+    transition: 0.5s;
+}
+
+.icons a .fa-whatsapp:hover {
+    border-radius: 50%;
+    border: 1px solid green;
+    transition: 0.05s;
+    box-shadow: 2px 2px green;
+    color: green;
+    transition: 0.5s;
+}
+
+.icons a .fa-facebook {
+    color: black;
+
+}
+
+.icons a .fa-whatsapp {
+    color: black;
+
+}
+
+
+.grid-container1 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    background-color: black;
+    padding: 5px;
+    height: 300px;
+}
+
+.grid-item {
+
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.grid-container2 {
+    display: grid;
+    gap: 10px;
+    background-color: black;
+    padding: 20px;
+
+}
+
+.item3 {
+    padding: 30px;
+    height: 170px;
+    background: linear-gradient(white, rgb(196, 196, 196));
+}
+
+.item4 {
+
+    height: 600px;
+}
+
+.register button {
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 55px;
+    background-color: black;
+    box-sizing: border-box;
+    border: 2px solid #333;
+    /* border-radius: 10%; */
+}
+
+.register button:hover {
+
+    border: 2px solid white;
+    box-shadow: 2px 2px 3px#fff,
+        3px 3px 4px #fff;
+
+}
+
+.register button a {
+    text-decoration: none;
+    color: white;
+}
+
+.register button a:hover {
+    color: yellow;
+}
+
+.image {
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+}
+
+.text1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    background: transparent;
+    width: 1200px;
+    height: 180px;
+    overflow: auto;
+    padding: 0;
+}
+
+.text1 h6 {
+    overflow-wrap: break-word;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.item4 .animate-character {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 50px;
+
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.grid-item h2 {
+
+    color: #484848;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+}
+
+.grid-item h2 span {
+    transition: .5s linear
+}
+
+h2:hover span:nth-child(1) {
+    margin-right: 5px
+}
+
+h2:hover span:nth-child(1):after {
+    content: "'";
+}
+
+h2:hover span:nth-child(2) {
+    margin-left: 30px
+}
+
+h2:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff;
+}
+
+.text2 h5 {
+    overflow-wrap: break-word;
+    color: #afafaf;
+    font-family: monospace;
+}
+
+.item4 .row2 .column{
+    width:50%;
+    float:left;
+}
+.row2 .column img{
+    width:600px;
+}
+
+
+
+
+
+
+

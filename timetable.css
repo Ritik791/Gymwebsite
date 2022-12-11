@@ -1,0 +1,35 @@
+.timetable{
+    height:500px;
+    background-image: url(img/img10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.timetable .row{
+    padding:40px;
+}
+.timetable .column{
+    padding:0;
+}
+.column{
+    float:left;
+    width:50%;
+}
+.column p{
+    font-size: 1.2rem;
+}
+.column a i{
+    color: white;
+    font-size: 1.4rem;
+    padding: 7px;
+    padding: 5px;
+}
+.column a i:hover{
+    transform: translateY(-7px);
+transition: 0.5s;
+}
+.column p{
+    color:white;
+}
+.column h2{
+    color:aquamarine;
+}

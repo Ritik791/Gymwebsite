@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding:5px 5px;
+    
+}
+#formpage{
+    background-color: teal;
+    border: 1px solid black;
+    padding:40px;
+    width:500px;
+    height:400px;
+    
+}
+.name, .email, .password{
+    color:black;
+    border:1px solid black;
+    padding:5px 5px;
+}
+#login{
+border: 1px solid black;
+}
+.myform h2{
+    color:white;
+}
+#login{
+background-color: black;
+color:white;
+width:70px;
+}
+#login:hover{
+    border:1px solid white;
+}
+

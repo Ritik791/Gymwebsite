@@ -1,0 +1,33 @@
+.nutrition{
+    height:410px;
+    padding:20px;
+    background-color: black;
+}
+.nutrition .img img{
+width:150px;
+}
+.nutrition .img img:hover{
+    transform: translateX(420px);
+}
+.nutrition h3{
+    color:orangered;
+}
+.column{
+    width:45%;
+    float:left;
+}
+.column-1{
+    padding:20px;
+    border:2px solid black;
+    background-color: white;
+}
+.column-2{
+    padding:40px;
+
+    width:300px;
+}
+.column-2 h4,p{
+    color:white;
+}
+
+
